@@ -21,4 +21,4 @@ while True:
         print("Yay, You got it")
         break
     no_of_tries+=1
-print(no_of_tries)
+print("No of tries:",no_of_tries)
