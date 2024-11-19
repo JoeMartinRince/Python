@@ -10,8 +10,10 @@ while True:
     num=int(input("Enter 0 for rock, 1 for paper, and 2 for scissors:  "))
     no=random.randint(0,2)
     print(f"Computer choice : {choices[no]}")
+    if num>2 or num<0:
+    print ("Invalid response ")
 
-    if choices[num]==0 and choices[no]==1:
+    elif choices[num]==0 and choices[no]==1:
         print(text)
     elif choices[num]==1 and choices[no]==2:
         print(text)
