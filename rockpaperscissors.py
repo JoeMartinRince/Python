@@ -2,7 +2,7 @@
 AUTHOR: JOE MARTIN RINCE
 DATE :18-11-2024
 """
-Your script has indentation and logical errors. Here's the corrected version:
+
 
 import random
 
@@ -28,7 +28,4 @@ while True:
             print("You Win!")
         else:
             print(text)
-    except ValueError:
-        print("Invalid input! Please enter a number (0, 1, or 2).")
-
-
+  
