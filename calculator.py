@@ -1,6 +1,7 @@
 """
 AUTHOR : JOE MARTIN RINCE
 DATEC:14-11-2024
+Simple desktop calculator using Python. Only the five basic arithmetic operators.
 """
 from itertools import product
 
